@@ -1,0 +1,7 @@
+file=$(find /home -name "sample.txt")
+
+if [ $? -eq 0 ]; then
+        cp $file /tmp/found.txt
+else
+        echo "File not found"
+fi

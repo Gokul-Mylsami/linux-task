@@ -1,0 +1,8 @@
+#!/bin/bash
+
+path="/home/gokul/data"
+file="loop.txt"
+while [ ! -f "$path/$file" ]; do
+        sleep 1
+done
+exit 1

@@ -1,0 +1,9 @@
+my-service.service
+[Unit]
+Description=This is a sample service
+
+[Service]
+ExecStart=/home/ubuntu/myscript.sh
+
+systemctl start my-service.service
+systemctl status my-service.service

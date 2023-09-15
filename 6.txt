@@ -1,0 +1,1 @@
+ulimit -Sn 10000 # it will set limit for current session

@@ -1,0 +1,1 @@
+sudo ln -s /home/gokul/tasks/data/sample.txt /tmp/sample/txt

@@ -1,0 +1,2 @@
+jq -r ‘.[]name’ flights.json
+jq -r ‘.[].fruits[]’ fruits.json

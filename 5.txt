@@ -1,0 +1,1 @@
+find /etc -type f -exec grep -l “localhost” {} + > /tmp/found.out 2> /tmp/found/err
